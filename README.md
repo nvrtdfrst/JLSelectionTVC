@@ -3,6 +3,10 @@ JLSelectionTVC
 
 View controller that allows a user to select something from an array of choices and returns their selection
 
+## Screenshots
+
+![][1] ![][2]
+
 ## License
 
 JLSelectionTVC is available under the MIT license
@@ -24,3 +28,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+ [1]: http://blog.codecropper.com/wp-content/uploads/2012/01/iOS-Simulator-Screen-shot-Jan-20-2012-4.28.18-PM-200x300.png "iOS Simulator Screen shot Jan 20, 2012 4.28.18 PM"
+ [2]: http://blog.codecropper.com/wp-content/uploads/2012/01/iOS-Simulator-Screen-shot-Jan-20-2012-4.28.23-PM-200x300.png "iOS Simulator Screen shot Jan 20, 2012 4.28.23 PM"
