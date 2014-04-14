@@ -198,7 +198,7 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Advanced Example" id="IBF-TW-pNE">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="done" id="2IY-9t-nrl">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="2IY-9t-nrl">
                             <connections>
                                 <action selector="dismissVCAction:" destination="AAg-rg-7k5" id="h2i-x1-yaf"/>
                             </connections>

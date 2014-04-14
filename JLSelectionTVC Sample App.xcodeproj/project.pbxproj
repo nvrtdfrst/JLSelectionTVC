@@ -16,8 +16,6 @@
 		961BAAF218FBC8EB004B0699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961BAAF018FBC8EB004B0699 /* Main.storyboard */; };
 		961BAAF518FBC8EB004B0699 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BAAF418FBC8EB004B0699 /* ViewController.m */; };
 		961BAAF718FBC8EB004B0699 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961BAAF618FBC8EB004B0699 /* Images.xcassets */; };
-		961BAB2D18FBC91C004B0699 /* JLSelectionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BAB2518FBC91C004B0699 /* JLSelectionTVC.m */; };
-		961BAB3018FBC976004B0699 /* JLSelectionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BAB2F18FBC976004B0699 /* JLSelectionObject.m */; };
 		961BAB3218FBCAB0004B0699 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961BAB3118FBCAB0004B0699 /* AVFoundation.framework */; };
 		961BAB3518FBDBAC004B0699 /* AdvancedExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BAB3418FBDBAC004B0699 /* AdvancedExampleViewController.m */; };
 		961BAB3818FBDED1004B0699 /* icon-iPodMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3618FBDED1004B0699 /* icon-iPodMusic.png */; };
@@ -26,6 +24,10 @@
 		961BAB4218FC672A004B0699 /* digital.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3E18FC672A004B0699 /* digital.mp3 */; };
 		961BAB4318FC672A004B0699 /* doorbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3F18FC672A004B0699 /* doorbell.mp3 */; };
 		961BAB4418FC672A004B0699 /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB4018FC672A004B0699 /* duck.mp3 */; };
+		964B762A18FC824700537DA9 /* JLSelectionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B762718FC824700537DA9 /* JLSelectionObject.m */; };
+		964B762B18FC824700537DA9 /* JLSelectionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B762918FC824700537DA9 /* JLSelectionTVC.m */; };
+		964B762F18FC832E00537DA9 /* screenShot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 964B762D18FC832E00537DA9 /* screenShot1.png */; };
+		964B763018FC832E00537DA9 /* screenShot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 964B762E18FC832E00537DA9 /* screenShot2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,10 +46,6 @@
 		961BAAF418FBC8EB004B0699 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		961BAAF618FBC8EB004B0699 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		961BAAFD18FBC8EB004B0699 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		961BAB2418FBC91C004B0699 /* JLSelectionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSelectionTVC.h; sourceTree = "<group>"; };
-		961BAB2518FBC91C004B0699 /* JLSelectionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSelectionTVC.m; sourceTree = "<group>"; };
-		961BAB2E18FBC976004B0699 /* JLSelectionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSelectionObject.h; sourceTree = "<group>"; };
-		961BAB2F18FBC976004B0699 /* JLSelectionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSelectionObject.m; sourceTree = "<group>"; };
 		961BAB3118FBCAB0004B0699 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		961BAB3318FBDBAC004B0699 /* AdvancedExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedExampleViewController.h; sourceTree = "<group>"; };
 		961BAB3418FBDBAC004B0699 /* AdvancedExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedExampleViewController.m; sourceTree = "<group>"; };
@@ -57,6 +55,12 @@
 		961BAB3E18FC672A004B0699 /* digital.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = digital.mp3; sourceTree = "<group>"; };
 		961BAB3F18FC672A004B0699 /* doorbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doorbell.mp3; sourceTree = "<group>"; };
 		961BAB4018FC672A004B0699 /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
+		964B762618FC824700537DA9 /* JLSelectionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSelectionObject.h; sourceTree = "<group>"; };
+		964B762718FC824700537DA9 /* JLSelectionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSelectionObject.m; sourceTree = "<group>"; };
+		964B762818FC824700537DA9 /* JLSelectionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSelectionTVC.h; sourceTree = "<group>"; };
+		964B762918FC824700537DA9 /* JLSelectionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSelectionTVC.m; sourceTree = "<group>"; };
+		964B762D18FC832E00537DA9 /* screenShot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenShot1.png; sourceTree = "<group>"; };
+		964B762E18FC832E00537DA9 /* screenShot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenShot2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +117,7 @@
 				961BAB3418FBDBAC004B0699 /* AdvancedExampleViewController.m */,
 				961BAAF318FBC8EB004B0699 /* ViewController.h */,
 				961BAAF418FBC8EB004B0699 /* ViewController.m */,
-				961BAB1318FBC91C004B0699 /* JLSelectionTVC */,
+				964B762518FC824700537DA9 /* JLSelectionTVC */,
 				961BAAF618FBC8EB004B0699 /* Images.xcassets */,
 				961BAAE518FBC8EB004B0699 /* Supporting Files */,
 			);
@@ -123,6 +127,7 @@
 		961BAAE518FBC8EB004B0699 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				964B762C18FC832E00537DA9 /* Screenshots */,
 				961BAB3618FBDED1004B0699 /* icon-iPodMusic.png */,
 				961BAB3718FBDED1004B0699 /* icon-iPodMusic@2x.png */,
 				961BAB3D18FC672A004B0699 /* crickets.mp3 */,
@@ -137,15 +142,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		961BAB1318FBC91C004B0699 /* JLSelectionTVC */ = {
+		964B762518FC824700537DA9 /* JLSelectionTVC */ = {
 			isa = PBXGroup;
 			children = (
-				961BAB2418FBC91C004B0699 /* JLSelectionTVC.h */,
-				961BAB2518FBC91C004B0699 /* JLSelectionTVC.m */,
-				961BAB2E18FBC976004B0699 /* JLSelectionObject.h */,
-				961BAB2F18FBC976004B0699 /* JLSelectionObject.m */,
+				964B762618FC824700537DA9 /* JLSelectionObject.h */,
+				964B762718FC824700537DA9 /* JLSelectionObject.m */,
+				964B762818FC824700537DA9 /* JLSelectionTVC.h */,
+				964B762918FC824700537DA9 /* JLSelectionTVC.m */,
 			);
-			path = JLSelectionTVC;
+			name = JLSelectionTVC;
+			path = "../../Sample code/JLSelectionTVC/JLSelectionTVC";
+			sourceTree = "<group>";
+		};
+		964B762C18FC832E00537DA9 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				964B762D18FC832E00537DA9 /* screenShot1.png */,
+				964B762E18FC832E00537DA9 /* screenShot2.png */,
+			);
+			name = Screenshots;
+			path = "../../Sample code/JLSelectionTVC/Screenshots";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +225,8 @@
 				961BAB4318FC672A004B0699 /* doorbell.mp3 in Resources */,
 				961BAAE918FBC8EB004B0699 /* InfoPlist.strings in Resources */,
 				961BAAF218FBC8EB004B0699 /* Main.storyboard in Resources */,
+				964B763018FC832E00537DA9 /* screenShot2.png in Resources */,
+				964B762F18FC832E00537DA9 /* screenShot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961BAB3018FBC976004B0699 /* JLSelectionObject.m in Sources */,
+				964B762A18FC824700537DA9 /* JLSelectionObject.m in Sources */,
 				961BAAF518FBC8EB004B0699 /* ViewController.m in Sources */,
-				961BAB2D18FBC91C004B0699 /* JLSelectionTVC.m in Sources */,
+				964B762B18FC824700537DA9 /* JLSelectionTVC.m in Sources */,
 				961BAB3518FBDBAC004B0699 /* AdvancedExampleViewController.m in Sources */,
 				961BAAEF18FBC8EB004B0699 /* AppDelegate.m in Sources */,
 				961BAAEB18FBC8EB004B0699 /* main.m in Sources */,
@@ -365,6 +383,7 @@
 				961BAB0F18FBC8EB004B0699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
