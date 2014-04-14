@@ -8,10 +8,6 @@
 
 #import "AdvancedExampleViewController.h"
 
-@interface AdvancedExampleViewController ()
-
-@end
-
 @implementation AdvancedExampleViewController
 
 - (void)viewDidLoad
