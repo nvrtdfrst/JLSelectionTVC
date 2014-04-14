@@ -16,22 +16,17 @@
 		961BAAF218FBC8EB004B0699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961BAAF018FBC8EB004B0699 /* Main.storyboard */; };
 		961BAAF518FBC8EB004B0699 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BAAF418FBC8EB004B0699 /* ViewController.m */; };
 		961BAAF718FBC8EB004B0699 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961BAAF618FBC8EB004B0699 /* Images.xcassets */; };
-		961BAAFE18FBC8EB004B0699 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961BAAFD18FBC8EB004B0699 /* XCTest.framework */; };
-		961BAAFF18FBC8EB004B0699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961BAADE18FBC8EB004B0699 /* Foundation.framework */; };
-		961BAB0018FBC8EB004B0699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961BAAE218FBC8EB004B0699 /* UIKit.framework */; };
-		961BAB0818FBC8EB004B0699 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB0618FBC8EB004B0699 /* InfoPlist.strings */; };
-		961BAB0A18FBC8EB004B0699 /* JLSelectionTVC_Sample_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BAB0918FBC8EB004B0699 /* JLSelectionTVC_Sample_AppTests.m */; };
+		961BAB2D18FBC91C004B0699 /* JLSelectionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BAB2518FBC91C004B0699 /* JLSelectionTVC.m */; };
+		961BAB3018FBC976004B0699 /* JLSelectionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BAB2F18FBC976004B0699 /* JLSelectionObject.m */; };
+		961BAB3218FBCAB0004B0699 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961BAB3118FBCAB0004B0699 /* AVFoundation.framework */; };
+		961BAB3518FBDBAC004B0699 /* AdvancedExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BAB3418FBDBAC004B0699 /* AdvancedExampleViewController.m */; };
+		961BAB3818FBDED1004B0699 /* icon-iPodMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3618FBDED1004B0699 /* icon-iPodMusic.png */; };
+		961BAB3918FBDED1004B0699 /* icon-iPodMusic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3718FBDED1004B0699 /* icon-iPodMusic@2x.png */; };
+		961BAB4118FC672A004B0699 /* crickets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3D18FC672A004B0699 /* crickets.mp3 */; };
+		961BAB4218FC672A004B0699 /* digital.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3E18FC672A004B0699 /* digital.mp3 */; };
+		961BAB4318FC672A004B0699 /* doorbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3F18FC672A004B0699 /* doorbell.mp3 */; };
+		961BAB4418FC672A004B0699 /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB4018FC672A004B0699 /* duck.mp3 */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		961BAB0118FBC8EB004B0699 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 961BAAD318FBC8EB004B0699 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 961BAADA18FBC8EB004B0699;
-			remoteInfo = "JLSelectionTVC Sample App";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		961BAADB18FBC8EB004B0699 /* JLSelectionTVC Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JLSelectionTVC Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +43,20 @@
 		961BAAF318FBC8EB004B0699 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		961BAAF418FBC8EB004B0699 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		961BAAF618FBC8EB004B0699 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		961BAAFC18FBC8EB004B0699 /* JLSelectionTVC Sample AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JLSelectionTVC Sample AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		961BAAFD18FBC8EB004B0699 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		961BAB0518FBC8EB004B0699 /* JLSelectionTVC Sample AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLSelectionTVC Sample AppTests-Info.plist"; sourceTree = "<group>"; };
-		961BAB0718FBC8EB004B0699 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		961BAB0918FBC8EB004B0699 /* JLSelectionTVC_Sample_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLSelectionTVC_Sample_AppTests.m; sourceTree = "<group>"; };
+		961BAB2418FBC91C004B0699 /* JLSelectionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSelectionTVC.h; sourceTree = "<group>"; };
+		961BAB2518FBC91C004B0699 /* JLSelectionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSelectionTVC.m; sourceTree = "<group>"; };
+		961BAB2E18FBC976004B0699 /* JLSelectionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSelectionObject.h; sourceTree = "<group>"; };
+		961BAB2F18FBC976004B0699 /* JLSelectionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSelectionObject.m; sourceTree = "<group>"; };
+		961BAB3118FBCAB0004B0699 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		961BAB3318FBDBAC004B0699 /* AdvancedExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedExampleViewController.h; sourceTree = "<group>"; };
+		961BAB3418FBDBAC004B0699 /* AdvancedExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedExampleViewController.m; sourceTree = "<group>"; };
+		961BAB3618FBDED1004B0699 /* icon-iPodMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPodMusic.png"; sourceTree = "<group>"; };
+		961BAB3718FBDED1004B0699 /* icon-iPodMusic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPodMusic@2x.png"; sourceTree = "<group>"; };
+		961BAB3D18FC672A004B0699 /* crickets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crickets.mp3; sourceTree = "<group>"; };
+		961BAB3E18FC672A004B0699 /* digital.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = digital.mp3; sourceTree = "<group>"; };
+		961BAB3F18FC672A004B0699 /* doorbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doorbell.mp3; sourceTree = "<group>"; };
+		961BAB4018FC672A004B0699 /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,19 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961BAB3218FBCAB0004B0699 /* AVFoundation.framework in Frameworks */,
 				961BAAE118FBC8EB004B0699 /* CoreGraphics.framework in Frameworks */,
 				961BAAE318FBC8EB004B0699 /* UIKit.framework in Frameworks */,
 				961BAADF18FBC8EB004B0699 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		961BAAF918FBC8EB004B0699 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				961BAAFE18FBC8EB004B0699 /* XCTest.framework in Frameworks */,
-				961BAB0018FBC8EB004B0699 /* UIKit.framework in Frameworks */,
-				961BAAFF18FBC8EB004B0699 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				961BAAE418FBC8EB004B0699 /* JLSelectionTVC Sample App */,
-				961BAB0318FBC8EB004B0699 /* JLSelectionTVC Sample AppTests */,
 				961BAADD18FBC8EB004B0699 /* Frameworks */,
 				961BAADC18FBC8EB004B0699 /* Products */,
 			);
@@ -93,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				961BAADB18FBC8EB004B0699 /* JLSelectionTVC Sample App.app */,
-				961BAAFC18FBC8EB004B0699 /* JLSelectionTVC Sample AppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +94,7 @@
 		961BAADD18FBC8EB004B0699 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				961BAB3118FBCAB0004B0699 /* AVFoundation.framework */,
 				961BAADE18FBC8EB004B0699 /* Foundation.framework */,
 				961BAAE018FBC8EB004B0699 /* CoreGraphics.framework */,
 				961BAAE218FBC8EB004B0699 /* UIKit.framework */,
@@ -115,8 +109,11 @@
 				961BAAED18FBC8EB004B0699 /* AppDelegate.h */,
 				961BAAEE18FBC8EB004B0699 /* AppDelegate.m */,
 				961BAAF018FBC8EB004B0699 /* Main.storyboard */,
+				961BAB3318FBDBAC004B0699 /* AdvancedExampleViewController.h */,
+				961BAB3418FBDBAC004B0699 /* AdvancedExampleViewController.m */,
 				961BAAF318FBC8EB004B0699 /* ViewController.h */,
 				961BAAF418FBC8EB004B0699 /* ViewController.m */,
+				961BAB1318FBC91C004B0699 /* JLSelectionTVC */,
 				961BAAF618FBC8EB004B0699 /* Images.xcassets */,
 				961BAAE518FBC8EB004B0699 /* Supporting Files */,
 			);
@@ -126,6 +123,12 @@
 		961BAAE518FBC8EB004B0699 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				961BAB3618FBDED1004B0699 /* icon-iPodMusic.png */,
+				961BAB3718FBDED1004B0699 /* icon-iPodMusic@2x.png */,
+				961BAB3D18FC672A004B0699 /* crickets.mp3 */,
+				961BAB3E18FC672A004B0699 /* digital.mp3 */,
+				961BAB3F18FC672A004B0699 /* doorbell.mp3 */,
+				961BAB4018FC672A004B0699 /* duck.mp3 */,
 				961BAAE618FBC8EB004B0699 /* JLSelectionTVC Sample App-Info.plist */,
 				961BAAE718FBC8EB004B0699 /* InfoPlist.strings */,
 				961BAAEA18FBC8EB004B0699 /* main.m */,
@@ -134,22 +137,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		961BAB0318FBC8EB004B0699 /* JLSelectionTVC Sample AppTests */ = {
+		961BAB1318FBC91C004B0699 /* JLSelectionTVC */ = {
 			isa = PBXGroup;
 			children = (
-				961BAB0918FBC8EB004B0699 /* JLSelectionTVC_Sample_AppTests.m */,
-				961BAB0418FBC8EB004B0699 /* Supporting Files */,
+				961BAB2418FBC91C004B0699 /* JLSelectionTVC.h */,
+				961BAB2518FBC91C004B0699 /* JLSelectionTVC.m */,
+				961BAB2E18FBC976004B0699 /* JLSelectionObject.h */,
+				961BAB2F18FBC976004B0699 /* JLSelectionObject.m */,
 			);
-			path = "JLSelectionTVC Sample AppTests";
-			sourceTree = "<group>";
-		};
-		961BAB0418FBC8EB004B0699 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				961BAB0518FBC8EB004B0699 /* JLSelectionTVC Sample AppTests-Info.plist */,
-				961BAB0618FBC8EB004B0699 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = JLSelectionTVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,24 +168,6 @@
 			productReference = 961BAADB18FBC8EB004B0699 /* JLSelectionTVC Sample App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		961BAAFB18FBC8EB004B0699 /* JLSelectionTVC Sample AppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 961BAB1018FBC8EB004B0699 /* Build configuration list for PBXNativeTarget "JLSelectionTVC Sample AppTests" */;
-			buildPhases = (
-				961BAAF818FBC8EB004B0699 /* Sources */,
-				961BAAF918FBC8EB004B0699 /* Frameworks */,
-				961BAAFA18FBC8EB004B0699 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				961BAB0218FBC8EB004B0699 /* PBXTargetDependency */,
-			);
-			name = "JLSelectionTVC Sample AppTests";
-			productName = "JLSelectionTVC Sample AppTests";
-			productReference = 961BAAFC18FBC8EB004B0699 /* JLSelectionTVC Sample AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +176,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "j labs";
-				TargetAttributes = {
-					961BAAFB18FBC8EB004B0699 = {
-						TestTargetID = 961BAADA18FBC8EB004B0699;
-					};
-				};
 			};
 			buildConfigurationList = 961BAAD618FBC8EB004B0699 /* Build configuration list for PBXProject "JLSelectionTVC Sample App" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -218,7 +191,6 @@
 			projectRoot = "";
 			targets = (
 				961BAADA18FBC8EB004B0699 /* JLSelectionTVC Sample App */,
-				961BAAFB18FBC8EB004B0699 /* JLSelectionTVC Sample AppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,17 +200,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961BAB4118FC672A004B0699 /* crickets.mp3 in Resources */,
+				961BAB3818FBDED1004B0699 /* icon-iPodMusic.png in Resources */,
+				961BAB4418FC672A004B0699 /* duck.mp3 in Resources */,
+				961BAB4218FC672A004B0699 /* digital.mp3 in Resources */,
+				961BAB3918FBDED1004B0699 /* icon-iPodMusic@2x.png in Resources */,
 				961BAAF718FBC8EB004B0699 /* Images.xcassets in Resources */,
+				961BAB4318FC672A004B0699 /* doorbell.mp3 in Resources */,
 				961BAAE918FBC8EB004B0699 /* InfoPlist.strings in Resources */,
 				961BAAF218FBC8EB004B0699 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		961BAAFA18FBC8EB004B0699 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				961BAB0818FBC8EB004B0699 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,29 +219,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961BAB3018FBC976004B0699 /* JLSelectionObject.m in Sources */,
 				961BAAF518FBC8EB004B0699 /* ViewController.m in Sources */,
+				961BAB2D18FBC91C004B0699 /* JLSelectionTVC.m in Sources */,
+				961BAB3518FBDBAC004B0699 /* AdvancedExampleViewController.m in Sources */,
 				961BAAEF18FBC8EB004B0699 /* AppDelegate.m in Sources */,
 				961BAAEB18FBC8EB004B0699 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		961BAAF818FBC8EB004B0699 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				961BAB0A18FBC8EB004B0699 /* JLSelectionTVC_Sample_AppTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		961BAB0218FBC8EB004B0699 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 961BAADA18FBC8EB004B0699 /* JLSelectionTVC Sample App */;
-			targetProxy = 961BAB0118FBC8EB004B0699 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		961BAAE718FBC8EB004B0699 /* InfoPlist.strings */ = {
@@ -288,14 +245,6 @@
 				961BAAF118FBC8EB004B0699 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		961BAB0618FBC8EB004B0699 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				961BAB0718FBC8EB004B0699 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -333,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -397,46 +346,6 @@
 			};
 			name = Release;
 		};
-		961BAB1118FBC8EB004B0699 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JLSelectionTVC Sample App.app/JLSelectionTVC Sample App";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JLSelectionTVC Sample App/JLSelectionTVC Sample App-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "JLSelectionTVC Sample AppTests/JLSelectionTVC Sample AppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		961BAB1218FBC8EB004B0699 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JLSelectionTVC Sample App.app/JLSelectionTVC Sample App";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JLSelectionTVC Sample App/JLSelectionTVC Sample App-Prefix.pch";
-				INFOPLIST_FILE = "JLSelectionTVC Sample AppTests/JLSelectionTVC Sample AppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -454,14 +363,6 @@
 			buildConfigurations = (
 				961BAB0E18FBC8EB004B0699 /* Debug */,
 				961BAB0F18FBC8EB004B0699 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		961BAB1018FBC8EB004B0699 /* Build configuration list for PBXNativeTarget "JLSelectionTVC Sample AppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				961BAB1118FBC8EB004B0699 /* Debug */,
-				961BAB1218FBC8EB004B0699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
