@@ -1,11 +1,12 @@
 JLSelectionTVC
 ==============
 
-View controller that allows a user to select something from an array of choices and returns their selection
+View controller that allows a user to select something from an array of choices and returns their selection. For example if you want the user to customize the background color of your app, you would use this class and they would see a list of colors, they choose a color, and you can then set the background color to that color.
 
 ## Screenshots
+![screenshot 1][1] 
 
-![][1] ![][2]
+![screenshot 2][2]
 
 ## License
 
