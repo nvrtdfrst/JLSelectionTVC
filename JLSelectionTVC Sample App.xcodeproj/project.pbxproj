@@ -24,6 +24,8 @@
 		961BAB4218FC672A004B0699 /* digital.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3E18FC672A004B0699 /* digital.mp3 */; };
 		961BAB4318FC672A004B0699 /* doorbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3F18FC672A004B0699 /* doorbell.mp3 */; };
 		961BAB4418FC672A004B0699 /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB4018FC672A004B0699 /* duck.mp3 */; };
+		96336DE718FC9040005E3969 /* JLSelectionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 96336DE418FC9040005E3969 /* JLSelectionObject.m */; };
+		96336DE818FC9040005E3969 /* JLSelectionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 96336DE618FC9040005E3969 /* JLSelectionTVC.m */; };
 		964B762F18FC832E00537DA9 /* screenShot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 964B762D18FC832E00537DA9 /* screenShot1.png */; };
 		964B763018FC832E00537DA9 /* screenShot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 964B762E18FC832E00537DA9 /* screenShot2.png */; };
 /* End PBXBuildFile section */
@@ -53,6 +55,10 @@
 		961BAB3E18FC672A004B0699 /* digital.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = digital.mp3; sourceTree = "<group>"; };
 		961BAB3F18FC672A004B0699 /* doorbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doorbell.mp3; sourceTree = "<group>"; };
 		961BAB4018FC672A004B0699 /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
+		96336DE318FC9040005E3969 /* JLSelectionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSelectionObject.h; sourceTree = "<group>"; };
+		96336DE418FC9040005E3969 /* JLSelectionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSelectionObject.m; sourceTree = "<group>"; };
+		96336DE518FC9040005E3969 /* JLSelectionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSelectionTVC.h; sourceTree = "<group>"; };
+		96336DE618FC9040005E3969 /* JLSelectionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSelectionTVC.m; sourceTree = "<group>"; };
 		964B762D18FC832E00537DA9 /* screenShot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenShot1.png; sourceTree = "<group>"; };
 		964B762E18FC832E00537DA9 /* screenShot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenShot2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +117,7 @@
 				961BAB3418FBDBAC004B0699 /* AdvancedExampleViewController.m */,
 				961BAAF318FBC8EB004B0699 /* ViewController.h */,
 				961BAAF418FBC8EB004B0699 /* ViewController.m */,
+				96336DE218FC9040005E3969 /* JLSelectionTVC */,
 				961BAAF618FBC8EB004B0699 /* Images.xcassets */,
 				961BAAE518FBC8EB004B0699 /* Supporting Files */,
 			);
@@ -133,6 +140,17 @@
 				961BAAEC18FBC8EB004B0699 /* JLSelectionTVC Sample App-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96336DE218FC9040005E3969 /* JLSelectionTVC */ = {
+			isa = PBXGroup;
+			children = (
+				96336DE318FC9040005E3969 /* JLSelectionObject.h */,
+				96336DE418FC9040005E3969 /* JLSelectionObject.m */,
+				96336DE518FC9040005E3969 /* JLSelectionTVC.h */,
+				96336DE618FC9040005E3969 /* JLSelectionTVC.m */,
+			);
+			path = JLSelectionTVC;
 			sourceTree = "<group>";
 		};
 		964B762C18FC832E00537DA9 /* Screenshots */ = {
@@ -218,7 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96336DE718FC9040005E3969 /* JLSelectionObject.m in Sources */,
 				961BAAF518FBC8EB004B0699 /* ViewController.m in Sources */,
+				96336DE818FC9040005E3969 /* JLSelectionTVC.m in Sources */,
 				961BAB3518FBDBAC004B0699 /* AdvancedExampleViewController.m in Sources */,
 				961BAAEF18FBC8EB004B0699 /* AppDelegate.m in Sources */,
 				961BAAEB18FBC8EB004B0699 /* main.m in Sources */,
