@@ -30,5 +30,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
- [1]: JLSelectionTVC\ Sample\ App/Screenshots/screenShot1.png
- [2]: JLSelectionTVC Sample App/Screenshots/screenShot2.png
+ [1]: JLSelectionTVC%20Sample%20App/Screenshots/screenShot1.png
+ [2]: JLSelectionTVC%20Sample%20App/Screenshots/screenShot2.png
