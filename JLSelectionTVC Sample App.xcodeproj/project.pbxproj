@@ -24,8 +24,6 @@
 		961BAB4218FC672A004B0699 /* digital.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3E18FC672A004B0699 /* digital.mp3 */; };
 		961BAB4318FC672A004B0699 /* doorbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB3F18FC672A004B0699 /* doorbell.mp3 */; };
 		961BAB4418FC672A004B0699 /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 961BAB4018FC672A004B0699 /* duck.mp3 */; };
-		964B762A18FC824700537DA9 /* JLSelectionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B762718FC824700537DA9 /* JLSelectionObject.m */; };
-		964B762B18FC824700537DA9 /* JLSelectionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B762918FC824700537DA9 /* JLSelectionTVC.m */; };
 		964B762F18FC832E00537DA9 /* screenShot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 964B762D18FC832E00537DA9 /* screenShot1.png */; };
 		964B763018FC832E00537DA9 /* screenShot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 964B762E18FC832E00537DA9 /* screenShot2.png */; };
 /* End PBXBuildFile section */
@@ -55,10 +53,6 @@
 		961BAB3E18FC672A004B0699 /* digital.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = digital.mp3; sourceTree = "<group>"; };
 		961BAB3F18FC672A004B0699 /* doorbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doorbell.mp3; sourceTree = "<group>"; };
 		961BAB4018FC672A004B0699 /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
-		964B762618FC824700537DA9 /* JLSelectionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSelectionObject.h; sourceTree = "<group>"; };
-		964B762718FC824700537DA9 /* JLSelectionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSelectionObject.m; sourceTree = "<group>"; };
-		964B762818FC824700537DA9 /* JLSelectionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSelectionTVC.h; sourceTree = "<group>"; };
-		964B762918FC824700537DA9 /* JLSelectionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSelectionTVC.m; sourceTree = "<group>"; };
 		964B762D18FC832E00537DA9 /* screenShot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenShot1.png; sourceTree = "<group>"; };
 		964B762E18FC832E00537DA9 /* screenShot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenShot2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,7 +111,6 @@
 				961BAB3418FBDBAC004B0699 /* AdvancedExampleViewController.m */,
 				961BAAF318FBC8EB004B0699 /* ViewController.h */,
 				961BAAF418FBC8EB004B0699 /* ViewController.m */,
-				964B762518FC824700537DA9 /* JLSelectionTVC */,
 				961BAAF618FBC8EB004B0699 /* Images.xcassets */,
 				961BAAE518FBC8EB004B0699 /* Supporting Files */,
 			);
@@ -140,18 +133,6 @@
 				961BAAEC18FBC8EB004B0699 /* JLSelectionTVC Sample App-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		964B762518FC824700537DA9 /* JLSelectionTVC */ = {
-			isa = PBXGroup;
-			children = (
-				964B762618FC824700537DA9 /* JLSelectionObject.h */,
-				964B762718FC824700537DA9 /* JLSelectionObject.m */,
-				964B762818FC824700537DA9 /* JLSelectionTVC.h */,
-				964B762918FC824700537DA9 /* JLSelectionTVC.m */,
-			);
-			name = JLSelectionTVC;
-			path = "../../Sample code/JLSelectionTVC/JLSelectionTVC";
 			sourceTree = "<group>";
 		};
 		964B762C18FC832E00537DA9 /* Screenshots */ = {
@@ -237,9 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				964B762A18FC824700537DA9 /* JLSelectionObject.m in Sources */,
 				961BAAF518FBC8EB004B0699 /* ViewController.m in Sources */,
-				964B762B18FC824700537DA9 /* JLSelectionTVC.m in Sources */,
 				961BAB3518FBDBAC004B0699 /* AdvancedExampleViewController.m in Sources */,
 				961BAAEF18FBC8EB004B0699 /* AppDelegate.m in Sources */,
 				961BAAEB18FBC8EB004B0699 /* main.m in Sources */,
