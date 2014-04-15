@@ -8,8 +8,8 @@
 #import "JLSelectionTVC.h"
 
 @interface JLSelectionTVC ()
-@property (nonatomic, strong, readwrite) NSMutableArray *allObjectsArrayOfArrays;
-@property (nonatomic, strong, readwrite) NSMutableArray *selectionObjectsArray;
+@property (nonatomic, strong) NSMutableArray *allObjectsArrayOfArrays;
+@property (nonatomic, strong) NSMutableArray *selectionObjectsArray;
 @property (nonatomic, strong) NSMutableDictionary *sectionTitlesDictionary;
 @property (nonatomic, strong) NSMutableDictionary *sectionFootersDictionary;
 @property (nonatomic, strong) id previousObjectPerformingAction;
@@ -40,7 +40,7 @@
 
 - (void)viewWillDisappear:(BOOL)animated
 {
-    [self.delegate JLSelectionTVC:self selection:self.selectionObjectsArray];
+    [self.delegate JLSelectionTVC:self selection:[self.selectionObjectsArray copy]];
     
     //stop any actions that might have started in the objects upon removing this view
     if ([self.previousObjectPerformingAction respondsToSelector:@selector(stopAction)])
