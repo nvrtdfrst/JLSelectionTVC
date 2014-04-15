@@ -145,10 +145,10 @@
 		96336DE218FC9040005E3969 /* JLSelectionTVC */ = {
 			isa = PBXGroup;
 			children = (
-				96336DE318FC9040005E3969 /* JLSelectionObject.h */,
-				96336DE418FC9040005E3969 /* JLSelectionObject.m */,
 				96336DE518FC9040005E3969 /* JLSelectionTVC.h */,
 				96336DE618FC9040005E3969 /* JLSelectionTVC.m */,
+				96336DE318FC9040005E3969 /* JLSelectionObject.h */,
+				96336DE418FC9040005E3969 /* JLSelectionObject.m */,
 			);
 			path = JLSelectionTVC;
 			sourceTree = "<group>";

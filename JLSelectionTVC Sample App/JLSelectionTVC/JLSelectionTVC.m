@@ -18,6 +18,7 @@
 
 @implementation JLSelectionTVC
 
+#define kDefaultCellIdentifier @"checkMarkCell"
 
 #pragma mark - View lifecycle
 
@@ -66,6 +67,14 @@
 
 
 #pragma mark - Lazy Instantiation
+
+- (NSString*) cellIdentifier
+{
+    if (!_cellIdentifier)
+        _cellIdentifier = kDefaultCellIdentifier;
+    
+    return _cellIdentifier;
+}
 
 - (NSMutableArray*) allObjectsArrayOfArrays
 {
@@ -237,7 +246,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"checkMarkCell"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:self.cellIdentifier];
     
     //configure cell
     cell.selectionStyle = UITableViewCellSelectionStyleNone;

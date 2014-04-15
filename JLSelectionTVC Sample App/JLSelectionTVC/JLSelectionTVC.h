@@ -59,8 +59,11 @@
 /** Delegate **/
 @property (nonatomic, weak) id <JLSelectionTVCDelegate> delegate;
 
-/** Sets whether the user should be allow to select only 1 object or select a multitude of objects **/
+/** Determines whether the user should be allow to select only 1 object or select a multitude of objects **/
 @property (nonatomic) BOOL isMultipleSelection;
+
+/** This is the cellIdentifier used to identify the cell to dequeue. If nil at the time of table loading, set automatically to @"checkMarkCell" **/
+@property (nonatomic, copy) NSString* cellIdentifier;
 
 /** Creates sections of the table and populates each cell with the corresponding object in objectsArray. Objects should either be NSString* or conform to the JLSelectionObjectProtocol. Also allows setting the section title and footer. Can pass nil to any parameter. **/
 - (void) insertSectionWithTitle:(NSString*)sectionTitle withRows:(NSArray*)objectsArray withSectionFooter:(NSString*)sectionFooter;
