@@ -190,6 +190,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "j labs";
+				TargetAttributes = {
+					961BAADA18FBC8EB004B0699 = {
+						DevelopmentTeam = MTC99JZWWE;
+					};
+				};
 			};
 			buildConfigurationList = 961BAAD618FBC8EB004B0699 /* Build configuration list for PBXProject "JLSelectionTVC Sample App" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -341,9 +346,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MTC99JZWWE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JLSelectionTVC Sample App/JLSelectionTVC Sample App-Prefix.pch";
 				INFOPLIST_FILE = "JLSelectionTVC Sample App/JLSelectionTVC Sample App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -354,9 +361,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MTC99JZWWE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JLSelectionTVC Sample App/JLSelectionTVC Sample App-Prefix.pch";
 				INFOPLIST_FILE = "JLSelectionTVC Sample App/JLSelectionTVC Sample App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
